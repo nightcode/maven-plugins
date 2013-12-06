@@ -4,7 +4,7 @@ Simple but useful maven plugins.
 
 `gzip-maven-plugin`
 Compresses every webapp directory files individually.
-
+```
   <project>
   ...
     <build>
@@ -35,5 +35,6 @@ Compresses every webapp directory files individually.
     </build>
   ...
   </project>
+```
 
 Feedback is welcome. Please don't hesitate to open up a new [github issue](https://github.com/nightcode/maven-plugins/issues) or simply drop me a line at <dmitry@nightcode.org>.
