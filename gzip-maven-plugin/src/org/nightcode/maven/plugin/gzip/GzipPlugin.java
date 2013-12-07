@@ -56,13 +56,13 @@ public class GzipPlugin extends AbstractMojo {
   private File webappDirectory;
 
   /**
-   * The comma separated list of tokens to include when gzip the content of the warSourceDirectory.
+   * The list of tokens to include when gzip the content of the warSourceDirectory.
    */
   @Parameter(property = "excludes")
   private List<String> excludes;
 
   /**
-   * The comma separated list of tokens to include when gzip the content of the warSourceDirectory.
+   * The list of tokens to include when gzip the content of the warSourceDirectory.
    */
   @Parameter(property = "includes")
   private List<String> includes;
