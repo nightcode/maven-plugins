@@ -78,7 +78,7 @@ public class GzipPlugin extends AbstractMojo {
 
   @Override public void execute() throws MojoExecutionException, MojoFailureException {
     if (skip) {
-      getLog().debug("maven-gzip-plugin skipped");
+      getLog().debug("gzip-maven-plugin skipped");
       return;
     }
 
